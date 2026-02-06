@@ -47,8 +47,8 @@ export default function AisleNavigator() {
     <aside className="h-full w-64 border-r border-gray-200 p-4 bg-[#F5F5DC]">
       <nav className="flex flex-col space-y-8">
         
-        {/* CURATED Section */}
-        <div>
+        {/* CURATED Section - COMMENTED OUT FOR MVP */}
+        {/* <div>
           <h3 className="px-4 text-xs font-semibold text-gray-500 uppercase tracking-wider">
             Curated
           </h3>
@@ -65,7 +65,7 @@ export default function AisleNavigator() {
               </NavLink>
             ))}
             {/* Special link for Misfits+ Deals */}
-            <NavLink to="/shop/deals" className={({ isActive }) => {
+            {/* <NavLink to="/shop/deals" className={({ isActive }) => {
                 const commonClasses = "block px-4 py-2 text-base rounded-md transition-colors";
                 if (isActive) {
                   return `${commonClasses} bg-[#dbe7c9] text-black font-semibold`;
@@ -78,7 +78,7 @@ export default function AisleNavigator() {
               </div>
             </NavLink>
           </div>
-        </div>
+        </div> */}
 
         {/* AISLES Section */}
         <div>

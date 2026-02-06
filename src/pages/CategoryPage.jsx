@@ -58,7 +58,8 @@ export default function CategoryPage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-6">{pageTitle}</h1>
 
       {/* Placeholder for Sub-Category Filters */}
-      <div className="flex items-center space-x-2 mb-8 overflow-x-auto pb-2">
+      {/* COMMENTED OUT: Yellow sub-category buttons not needed for MVP */}
+      {/* <div className="flex items-center space-x-2 mb-8 overflow-x-auto pb-2">
         {subCategoryPlaceholders.map(tag => (
           <button 
             key={tag}
@@ -68,7 +69,7 @@ export default function CategoryPage() {
             {tag}
           </button>
         ))}
-      </div>
+      </div> */}
 
       {/* Displaying the Product Grid */}
       {loading && <p>Loading products...</p>}
